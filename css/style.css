@@ -1,0 +1,152 @@
+@charset="UTP-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.wrap{width: 960px;}
+.clear{clear: both; position: inherit;}
+
+
+
+
+header{height: 200px;}
+.logo{
+    height: 100px;
+    overflow: hidden;
+    float: left;
+}
+.logo>a>img{
+    width: 175px;
+    margin-top: 5px;
+}
+
+nav{
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+}
+.nav{
+    width: 600px;
+    height: 20px;
+}
+.nav>li{
+    float: left;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+.nav>li:hover{
+    background-color: #e86400;
+    color: #ffffff;
+}
+
+.submenu{
+    background-color: rgba(255,255,255,0.8);
+    width: 100%;
+    margin-top: 5px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.submenu>li{
+    color: #000000;
+    padding: 5px 0;
+}
+.submenu>li:hover{
+    background-color: #ff8f43;
+    color: #ffffff
+}
+
+
+
+
+.Main_Page{height: 350px;}
+.Main_Page>img{
+    margin: 0 auto;
+    margin-top: -65px;
+    padding: 0;
+    width: 960px;
+    height: 400px;
+}
+
+
+
+.Contents{height: 500px;}
+.Notice{
+    float: left;
+    width: 540px;
+    margin-top: 20px;
+}
+.Notice h2{text-align: center;}
+table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    color: #666666;
+    border-top: 1px solid #cccccc;
+}
+.table tr>th{padding: 5px 0; text-align: center; }
+.table tr>td{padding: 5px; text-align: center;}
+.table tr:nth-child(2n){background-color: #ffbf94;}
+
+.partner{
+    float: right;
+    width: 420px;
+    margin-top: 20px;
+}
+.partner h2{
+    text-align: center;
+}
+.partner ul>li{
+    font-size: 14px;
+}
+
+.icon{margin-top: 20px;}
+.icons{text-align: center;}
+.imgbtn{
+    width: 160px;
+    margin: 0 20px;
+    display: inline-block;
+}
+.imgbtn button{
+    background-color: #e86400;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 125px;
+    height: 30px;
+    font-size: 16px;
+    margin: 10px;
+}
+button{cursor: pointer;}
+.imgbtn>button:hover{
+    background-color: #ffffff;
+    color: #e86400;
+}
+
+
+footer{
+    height: 150px;
+    background-color: #e86400;
+    color: #ffffff;
+    width: 960px;
+    overflow: hidden;
+}
+footer ul>li{
+    float: left;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+footer p{
+    width: 50%;
+    font-size: 12px;
+    float: right;
+    color: #ffffff;
+    margin-top: 30px;
+}
